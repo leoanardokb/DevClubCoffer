@@ -1,2 +1,6 @@
-# projeto-cafeteria
-modelo simples de um site de cafeteria com html, css e um pouco de boostrap
+DevClub Coffee
+um site simples de cafeteria usando html css e um pouco de boostrap para melhor harmonizaçao da pagina
+Leonardo Bruno Silva Lima
+Analise e Desenvolvimento de Sistemas 
+turno manha
+
