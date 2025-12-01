@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub Coffee - Clone Moderno</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/751/751621.png" alt="logo" class="logo-img">
+            </a>
+            
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#review">Avaliações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#address">Endereço</a></li>
+                </ul>
+            </div>
+
+            <div class="icons d-flex">
+                <div class="bi bi-search"></div>
+                <div class="bi bi-cart"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h3>Comece o dia com um café fresco</h3>
+                    <p class="mt-3 fs-5 text-light">O melhor grão selecionado especialmente para o seu momento de prazer e energia.</p>
+                    <a href="#menu" class="btn btn-custom">Peça o seu agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" id="about">
+        <h2 class="title-section">Sobre <span>Nós</span></h2>
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1000&auto=format&fit=crop" class="img-fluid about-img" alt="Sobre nós">
+            </div>
+            <div class="col-lg-6 about-content">
+                <h3>O que faz nosso café ser especial?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+                <a href="#" class="btn btn-custom">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" id="menu">
+        <h2 class="title-section">Nosso <span>Menu</span></h2>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card h-100">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=500&auto=format&fit=crop" alt="Café">
+                    <h3>Café Expresso</h3>
+                    <div class="price">R$ 15.99 <span>R$ 20.99</span></div>
+                    <a href="#" class="btn btn-custom">Adicionar</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card h-100">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=500&auto=format&fit=crop" alt="Café">
+                    <h3>Cappuccino</h3>
+                    <div class="price">R$ 18.99 <span>R$ 22.99</span></div>
+                    <a href="#" class="btn btn-custom">Adicionar</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="menu-card h-100">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=500&auto=format&fit=crop" alt="Café">
+                    <h3>Latte Macchiato</h3>
+                    <div class="price">R$ 16.50 <span>R$ 19.99</span></div>
+                    <a href="#" class="btn btn-custom">Adicionar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" id="review">
+        <h2 class="title-section">Nossos <span>Clientes</span></h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="review-card h-100"> 
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25663.png" class="quote-icon" style="filter: invert(1);" alt="aspas">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum.</p>
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" class="user-img" alt="cliente">
+                    <h3 class="mt-3 fs-4">João Silva</h3>
+                    <div class="text-warning mt-auto"> <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="review-card h-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25663.png" class="quote-icon" style="filter: invert(1);" alt="aspas">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo. Texto um pouco maior para forçar o desalinhamento se não tiver h-100.</p>
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" class="user-img" alt="cliente">
+                    <h3 class="mt-3 fs-4">Maria Souza</h3>
+                    <div class="text-warning mt-auto">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="review-card h-100">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25663.png" class="quote-icon" style="filter: invert(1);" alt="aspas">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis?</p>
+                    <img src="https://randomuser.me/api/portraits/men/85.jpg" class="user-img" alt="cliente">
+                    <h3 class="mt-3 fs-4">Carlos Pereira</h3>
+                    <div class="text-warning mt-auto">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" id="address">
+        <h2 class="title-section">Nosso <span>Endereço</span></h2>
+        <div class="ratio ratio-21x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197587029517!2d-46.65202672373356!3d-23.56134887880564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1709230000000!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer class="text-center py-4" style="background-color: var(--black);">
+        <div class="mb-3">
+            <a href="#" class="btn btn-outline-light rounded-circle m-1"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="btn btn-outline-light rounded-circle m-1"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="btn btn-outline-light rounded-circle m-1"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="btn btn-outline-light rounded-circle m-1"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <p>Criado por <span>Você</span> | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
